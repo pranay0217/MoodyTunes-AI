@@ -22,7 +22,7 @@ export const Dashboard = () => {
   // Favorites (combined videos + music)
   const [favorites, setFavorites] = useState([]);
 
-  const YOUTUBE_API_KEY = "AIzaSyBK2xkjPwy-I8aC0uL-pIzZzK53YmKQODk";
+  const YOUTUBE_API_KEY = youtube_api_key;
 
   const playerRef = useRef(null);
   const [audioProgress, setAudioProgress] = useState(0);
